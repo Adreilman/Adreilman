@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: url('https://images.pexels.com/photos/1526/dark-blur-blurred-gradient.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    height: 1660px;
+
+}
+#title{
+    text-align: center;
+}
+.me{
+    font-size: 40px;
+}
+.menu{
+    color: white;
+    display: block;
+    width: 24%;
+    margin: 20px auto;
+    background-color: rgb(114, 59, 59);
+    border-radius: 30px;
+    text-align: center;
+    height: 36px;
+    width: 52em;
+}
+.menu span{
+
+}
+.menu span a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    /* font-family: 'Rajdhani', sans-serif; */
+    font-family: 'Slabo 27px', serif;
+}
+.Home{
+    float: left;
+    margin: 10px 0px 6px 128px;
+}
+.Fun{
+    margin: 10px 128px 6px 0px;
+    border: yellow;
+    float: right;
+}
+.image{
+    display: inline;
+    margin-left: 325px;
+}
+.snake{
+    height: 206px;
+    width: 166px;
+}
+.about{
+    float: right;
+    width: 62%;
+    font-size: 20px;
+}
+.about1{
+    float: right;
+    width: 62%;
+    font-size: 22px;
+    margin-top: 0px;
+}
+#reasons{
+    text-align: center;
+    margin-right: 230px;
+    font-size: 17px;
+}
+#reasons2{
+    text-align: center;
+    margin-right: 347px;
+    font-size: 17px;
+}
+.lists{
+    margin-left: 352px;
+}
+.lists li{
+    text-align: left;
+}
+#box{
+    position: fixed;
+    right: 17px;
+    top: 16px;
+    border: 6px double blanchedalmond;
+    font-size: 14px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: 'Slabo 27px', serif;
+
+}
